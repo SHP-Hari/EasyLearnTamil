@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bk"
+    android:orientation="vertical"
+    tools:context=".TamilWordsActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:orientation="vertical"
+        android:paddingTop="100dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="8dp"
+            android:text="Tamil Words"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15pt"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/buttonTamilLetters"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="40dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/btnLearn"
+                android:layout_width="match_parent"
+                style="@style/loginButton"
+                android:text="Learn Words"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/loginViewsMargin"/>
+            <Button
+                android:id="@+id/btnWrite"
+                style="@style/loginButton"
+                android:layout_width="match_parent"
+                android:text="Practice By Writing Words"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/loginViewsMargin"/>
+            <Button
+                android:id="@+id/btnTranslator"
+                android:layout_width="match_parent"
+                style="@style/loginButton"
+                android:text="Translate"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/loginViewsMargin"/>
+            <Button
+                android:id="@+id/btnWordAssignments"
+                style="@style/loginButton"
+                android:layout_width="match_parent"
+                android:text="Words Assignment"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/loginViewsMargin"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

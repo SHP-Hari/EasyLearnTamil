@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "smartproject-244504",
+  "private_key_id": "182204f8ff022736b63db7f93e63ed9e924114a0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCScUQI7BtLCg50\n6c4REloMlBiT1jaJbTB6oWDFjbiF3PGdyrqXlaucWgkLlYg+bFn40eA0nGGqV5T2\nz2Pcrg4c79C2dNPKq17cvkJJmj4ikn04i65WTcKsqD/A7R8CdYG9inI4R2w9FWcL\nEQ9MYao84cv+uS/JEtYXXf2kuvVCufGUDEcKziwtxnORDrQXzQAS0XaTWgtPx8Ka\n96ZnKyyVN6xeqWP2eVNuT9+pSb+OmFNTlWrxTiXdA7nnWVtNG9WcbK3mw7AHT/UO\nDswPGVmAxztwWcZP9/xByYf03406APFrE15A0e7qm5/EKyJkSWCpaar3yDL2K86d\nnhDDbgIbAgMBAAECggEAAp0uo4wiC+uw3gm4Xxn5QoU4OmyrSjZelFR3cj9OiREs\nZ5kmoy24Q6Zgcp+nhW8QshN+UYzDD4ktrwl8/65EW+Q0pl/H0gkkvIL8PZfDvoE9\nO/pTpoBlK7N7I9n3tjxbuwLoJAoJAWl1jpSDizpTvBokYTZ0BxOk1QOdU0iaYn0B\nSWJytwCjlDK0aVtoyuf2dzTzZrtc220bDomvnqSLts17TVUPxs+QiOQZOnW/AV/i\n41QsVDeMEPbQ2xjCpUQJ1vxOB8nSJAaeQe6LrQmUn3e8Q04WN/sOO4Av/FjwU0MQ\nEDjG0mZnookT3wGZ4HCcJw4EdGMCgRarZjZFRIrJhQKBgQDNgM6suxmuxARoLwux\niggGIqHPztj69aP5TAsX+bPv8k2OWfTRxxYt0AellR7OifKsLzUW4bcDsVKWVgYF\n5hwUbDqarqswo+rHXkg1OYYkjuxonqx12iZ95YsBbYqYDhxNq2PM0yajWbLDEQwS\nxPO7so0eNhEna3CqwZ1c0CDoxwKBgQC2bT1cuGBd3Rg9xjRJtyVv/7SIh0g4aJdM\nW9rn2+eRGm2mgKHM5ay+4pow1qTzCMF123RaimI5EqlDiWK1WwhEHnmOuxnKJ2C9\nYIcahJ9/2Tr8wOVnWaNYhq3g+P8ZrEOdmHn7A47EHtmsbaW+K6Wbs2MFibN+oJzo\nN2bnMtxQDQKBgQCRODzUg0Ma5RnYJaa1xzz0WPTPzPQ4I+3D9aDBSIuHPEriFV+T\n/oQFy8Qbls02VvVOB+4URVz3Fw+tfQy0jm+5XuHq/ROsQ6ldSZrtQcExhG47YCWv\nAoHA5bzdPXN7ED2gBUV5MJ1VQcW5YwqNGPDD6uEeQEbO/HWZtUhmlg0rcQKBgQCv\n9pj8yb/yaiRK2ddvz2AmMyEBnHQWLRTbi7KQeTZZaYOg2my3hkblbRBL0Y8T+jsZ\notAN0XPDF3P7eBalViSYCEk6WtEahHc01FodQxXSrUfPq4Tb9sOvzWEFI0h1jAtA\nhWYLsLfSBuvx/WWlFNbOY+881UE1AFm5SE9S7WVDNQKBgQClsVa9udNBFNhGVeEe\nGuIzPKPX7DImpW4qukWLp/mIhpFhD/ekxikfXTEhjY4YjrsI+7zCipGl/zo38oWR\nwyCWLn5i4Aci7pYWdbsfBHdDtUQUeiQ7R38HgmEQYjk/SIN+cpboYdrcFI/1t0BH\nMvwvHi99ETrSJt0yIzwHT+m5/g==\n-----END PRIVATE KEY-----\n",
+  "client_email": "easylearnerapp@smartproject-244504.iam.gserviceaccount.com",
+  "client_id": "115210503043163895735",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/easylearnerapp%40smartproject-244504.iam.gserviceaccount.com"
+}

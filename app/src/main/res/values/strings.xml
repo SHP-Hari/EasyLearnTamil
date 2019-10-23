@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Easy Learner</string>
+    <string name="no_connection">No internet connection! Cannot be translated!</string>
+    <string name="assignment_1_letters">Assignment 1 - Letters</string>
+    <string name="time">Time</string>
+    <string name="initial_score">initial Score</string>
+    <string name="assignment_3_beginner">Assignment - Level Beginner</string>
+    <string name="assignment_2_words">Assignment 2 - Words</string>
+    <string name="assignment_4_advanced">Assignment - Level Advanced</string>
+    <string name="register">REGISTER</string>
+    <string name="login_email_hint">Password</string>
+    <string name="login_password_hint">Password</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+    <string name="login_name_hint">Name</string>
+    <string name="login_mobile_number_hint">Email Address</string>
+    <string name="emptyPassword">Password Cannot Be Empty</string>
+    <string name="invalidPassword">Invalid Password</string>
+    <string name="emptyEmailAddress">E-mail Address Cannot be Empty</string>
+    <string name="invalidEmailAddress">Invalid Email Address</string>
+    <string name="emptyUsernaName">User Name Cannot be Empty</string>
+    <string name="invalidUserName">Invalid Username</string>
+    <string name="mismatchingPasswords">Please Enter the Same Password</string>
+</resources>

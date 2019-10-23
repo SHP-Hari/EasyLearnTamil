@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "46813972845",
+    "firebase_url": "https://easy-learn-tamil.firebaseio.com",
+    "project_id": "easy-learn-tamil",
+    "storage_bucket": "easy-learn-tamil.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46813972845:android:5777df09f40b6f05",
+        "android_client_info": {
+          "package_name": "com.sliit.easylearner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "46813972845-9ocq0pnamnrhdqe36h7t9tv9d2eteqse.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAYl4YipEP0b_5S2xttBfGMNNEjo1i9W4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "46813972845-9ocq0pnamnrhdqe36h7t9tv9d2eteqse.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
