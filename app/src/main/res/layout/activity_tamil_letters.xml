@@ -58,7 +58,7 @@
                 android:id="@+id/btnWrite"
                 style="@style/loginButton"
                 android:layout_width="match_parent"
-                android:text="Practice by Writing Letters"
+                android:text="Practice by Writing"
                 android:layout_gravity="center"
                 android:layout_marginTop="@dimen/loginViewsMargin"/>
             <Button

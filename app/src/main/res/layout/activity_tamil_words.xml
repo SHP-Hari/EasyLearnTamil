@@ -56,13 +56,6 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="@dimen/loginViewsMargin"/>
             <Button
-                android:id="@+id/btnWrite"
-                style="@style/loginButton"
-                android:layout_width="match_parent"
-                android:text="Practice By Writing Words"
-                android:layout_gravity="center"
-                android:layout_marginTop="@dimen/loginViewsMargin"/>
-            <Button
                 android:id="@+id/btnTranslator"
                 android:layout_width="match_parent"
                 style="@style/loginButton"

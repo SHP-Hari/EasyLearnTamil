@@ -33,7 +33,7 @@ public class WriteLettersActivity extends AppCompatActivity{
         webView.setWebViewClient(new WebViewClient());
         webView.setWebChromeClient(new WebChromeClient());
         webView.clearCache(true);
-        webView.loadUrl("http://18.221.61.158/easyLearner/draw.html");
+        webView.loadUrl("http://easylearntamil.000webhostapp.com/detector");
     }
 
     private class MyBrowser extends WebViewClient {

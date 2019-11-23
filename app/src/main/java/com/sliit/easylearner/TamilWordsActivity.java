@@ -49,14 +49,14 @@ public class TamilWordsActivity extends AppCompatActivity {
             }
         });
 
-        Button btnWriteWords = findViewById(R.id.btnWrite);
-        btnWriteWords.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(TamilWordsActivity.this, WriteWordsActivity.class);
-                startActivity(intent);
-            }
-        });
+//        Button btnWriteWords = findViewById(R.id.btnWrite);
+//        btnWriteWords.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(TamilWordsActivity.this, WriteWordsActivity.class);
+//                startActivity(intent);
+//            }
+//        });
     }
 
 }
