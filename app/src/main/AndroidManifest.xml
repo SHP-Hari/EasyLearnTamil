@@ -14,7 +14,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".LearnWordsByCategoryActivity"></activity>
+        <activity android:name=".DrawImage"></activity>
+        <activity android:name=".LearnWordsByCategoryActivity" />
         <activity android:name=".LearnWordsActivity" />
         <activity android:name=".AdvanceAssignmentActivity" />
         <activity android:name=".BeginnerAssignmentActivity" />

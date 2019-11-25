@@ -62,48 +62,68 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView5" />
 
-    <ImageView
-        android:id="@+id/imageViewLetter"
+    <LinearLayout
+        android:id="@+id/layoutMain"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="450dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toTopOf="@+id/buttonPre"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5"
-        tools:srcCompat="@drawable/vowel1" />
+        android:background="@drawable/tenor"
+        android:weightSum="1.0"
+        android:orientation="horizontal">
 
-    <Button
-        android:id="@+id/buttonPre"
-        android:layout_width="150dp"
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:backgroundTint="#FFD600"
-        android:text="Previous"
-        android:background="#2C6608"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/buttonNext"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewLetter" />
+        app:layout_constraintTop_toBottomOf="@+id/layoutMain">
 
-    <Button
-        android:id="@+id/buttonNext"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:backgroundTint="#FFD600"
-        android:text="Next"
-        android:background="#2C6608"
-        app:layout_constraintBaseline_toBaselineOf="@+id/buttonPre"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/buttonPre" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:weightSum="3">
+
+            <Button
+                android:id="@+id/buttonPre"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#2C6608"
+                android:backgroundTint="#FFD600"
+                android:layout_margin="4dp"
+                android:text="Previous"
+                android:layout_weight="1"/>
+
+            <ImageButton
+                android:id="@+id/buttonClear"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:background="#2C6608"
+                android:backgroundTint="#FFD600"
+                android:layout_margin="4dp"
+                android:text="Clear"
+                android:src="@drawable/ic_clear_black_24dp"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/buttonNext"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#2C6608"
+                android:backgroundTint="#FFD600"
+                android:text="Next"
+                android:layout_margin="4dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
